@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @campaign.address %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @campaign.location %>
+</p>
+
+<p>
+  <strong>Keywords:</strong>
+  <%= @campaign.keywords %>
+</p>
+
+<%= link_to 'Edit', edit_campaign_path(@campaign) %> |
+<%= link_to 'Back', campaigns_path %>
